@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="tipomovimentacaos/list">
+        <put-attribute name="body" value="/WEB-INF/views/tipomovimentacaos/list.jspx"/>
+    </definition>
+<definition extends="default" name="tipomovimentacaos/show">
+        <put-attribute name="body" value="/WEB-INF/views/tipomovimentacaos/show.jspx"/>
+    </definition>
+<definition extends="default" name="tipomovimentacaos/create">
+        <put-attribute name="body" value="/WEB-INF/views/tipomovimentacaos/create.jspx"/>
+    </definition>
+<definition extends="default" name="tipomovimentacaos/update">
+        <put-attribute name="body" value="/WEB-INF/views/tipomovimentacaos/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_itchyno_iteff_domain_Produto" items="${produtoes}" z="3RTZFuvSDWcIhogvbiOy10ZVF+o=">
+        <table:table data="${produtoes}" id="l_com_itchyno_iteff_domain_Produto" path="/produtoes" z="S70k0PfrAjoKDS1CePqq5wuCeW8=">
+            <table:column id="c_com_itchyno_iteff_domain_Produto_codigo" property="codigo" z="kcy+3/l7Wj2vLE2YTC0d6MKhh1E="/>
+            <table:column id="c_com_itchyno_iteff_domain_Produto_ean13" property="ean13" z="4UBiLFkXnSrdsGrmZ3pOnhVzyaw="/>
+            <table:column id="c_com_itchyno_iteff_domain_Produto_nome" property="nome" z="B6HihviHCIvyXIHu5NRjhG3LdSI="/>
+            <table:column id="c_com_itchyno_iteff_domain_Produto_descricao" property="descricao" z="2T6HHRYEzB8vEzNLbeITjOtykBc="/>
+            <table:column id="c_com_itchyno_iteff_domain_Produto_tipo" property="tipo" z="XwImBq4TEEsPpiw5fwlqrl7ebFg="/>
+            <table:column id="c_com_itchyno_iteff_domain_Produto_fabricante" property="fabricante" z="T0jicLNHL1m6otgEaJMN3KQInwI="/>
+        </table:table>
+    </page:list>
+</div>

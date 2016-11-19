@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_itchyno_iteff_domain_Usuario" object="${usuario}" path="/usuarios" z="lanUu2IzDvJFx0Eam8i3/GX9kCY=">
+        <field:display field="codigo" id="s_com_itchyno_iteff_domain_Usuario_codigo" object="${usuario}" z="GzU9QpjOJ2KQnExGbAhFSvQZCPg="/>
+        <field:display field="nome" id="s_com_itchyno_iteff_domain_Usuario_nome" object="${usuario}" z="e5qcO+hRouFVdPyHjJd/1j+LPts="/>
+        <field:display field="senha" id="s_com_itchyno_iteff_domain_Usuario_senha" object="${usuario}" z="Idvttxq64uItwgCtteul0gmerMg="/>
+        <field:display field="email" id="s_com_itchyno_iteff_domain_Usuario_email" object="${usuario}" z="5jXpQqRYL/WMkGu8NhwF5cLgwDY="/>
+        <field:display field="numTelefone" id="s_com_itchyno_iteff_domain_Usuario_numTelefone" object="${usuario}" z="xD3IJyCnCm/optzAd7XMmQDYu4Y="/>
+        <field:display field="numCelular" id="s_com_itchyno_iteff_domain_Usuario_numCelular" object="${usuario}" z="EPppNZh8KJEvRP5Msm32gBKbucA="/>
+    </page:show>
+</div>

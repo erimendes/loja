@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_itchyno_iteff_domain_Usuario" items="${usuarios}" z="u/d7x3fWpj/1aMZMg+lrND08nWU=">
+        <table:table data="${usuarios}" id="l_com_itchyno_iteff_domain_Usuario" path="/usuarios" z="IuDX+HaYXsubRkpUcQ+0VA+XGaQ=">
+            <table:column id="c_com_itchyno_iteff_domain_Usuario_codigo" property="codigo" z="twBHFf+gH5pl0zrAhKeF2N2kVLk="/>
+            <table:column id="c_com_itchyno_iteff_domain_Usuario_nome" property="nome" z="LZipa0KARcNqqzjAVFvCVdmA6Q8="/>
+            <table:column id="c_com_itchyno_iteff_domain_Usuario_senha" property="senha" z="Cc7zUZRV3yvgwATBblAtLZUx3+s="/>
+            <table:column id="c_com_itchyno_iteff_domain_Usuario_email" property="email" z="F1H1ALct9HpNjdc7oSGV6wseDPI="/>
+            <table:column id="c_com_itchyno_iteff_domain_Usuario_numTelefone" property="numTelefone" z="RlbcB6HE19qhdezSt5CUbeFRhH0="/>
+            <table:column id="c_com_itchyno_iteff_domain_Usuario_numCelular" property="numCelular" z="vN68kaE8ZCceYkuBClkRxwTrD5E="/>
+        </table:table>
+    </page:list>
+</div>

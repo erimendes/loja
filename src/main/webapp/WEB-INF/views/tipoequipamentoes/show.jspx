@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_itchyno_iteff_domain_TipoEquipamento" object="${tipoequipamento}" path="/tipoequipamentoes" z="lPRXfJLhRN2wIeVn4p/aY3rOpX0=">
+        <field:display field="codigo" id="s_com_itchyno_iteff_domain_TipoEquipamento_codigo" object="${tipoequipamento}" z="5h4LG5Si2xRMREIgAUQ3uTUugJM="/>
+        <field:display field="nome" id="s_com_itchyno_iteff_domain_TipoEquipamento_nome" object="${tipoequipamento}" z="wkXUh77QJpmHi/Aa2BFrlOjBz34="/>
+        <field:display field="categoria" id="s_com_itchyno_iteff_domain_TipoEquipamento_categoria" object="${tipoequipamento}" z="UggX6heocgXflYQxNxk3uUKdZAs="/>
+    </page:show>
+</div>

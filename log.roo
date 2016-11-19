@@ -1,0 +1,94 @@
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-12 18:18:32
+project --topLevelPackage com.itchyno.iteff
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+entity jpa --class ~domain.Ambiente --testAutomatically
+field string --fieldName codigo --notNull --sizeMin 3 --sizeMax 3
+field string --fieldName descricao --notNull --sizeMax 255
+field boolean --fieldName indAtivo --notNull
+entity jpa --class ~domain.Usuario --testAutomatically
+field reference --fieldName codigo --notNull --type ~.domain.Ambiente
+field string --fieldName nome --notNull --sizeMax 255
+field string --fieldName senha --notNull --sizeMax 255
+field string --fieldName email --sizeMax 255
+field number --fieldName numTelefone --type java.lang.Integer
+field number --fieldName numCelular --type java.lang.Integer
+entity jpa --class ~domain.Cliente --testAutomatically
+field reference --fieldName codigo --notNull --type ~.domain.Ambiente
+field string --fieldName nome --notNull --sizeMax 255
+field string --fieldName email --notNull --sizeMax 255
+field number --fieldName numTelefone1 --type java.lang.Integer
+field number --fieldName numTelefone2 --type java.lang.Integer
+field number --fieldName numCelular1 --type java.lang.Integer
+field number --fieldName numCelular2 --type java.lang.Integer
+field reference --fieldName nomeUsuario --type ~.domain.Usuario
+field string --fieldName nomeEndereco --sizeMax 255
+field string --fieldName compEndereco --sizeMax 50
+field number --fieldName numEndereco --type java.lang.Integer
+field string --fieldName nomeCidade --sizeMax 50
+field string --fieldName nomeEstado --sizeMax 50
+field string --fieldName nomePais --sizeMax 50
+entity jpa --class ~domain.TipoProduto --testAutomatically
+field reference --fieldName codigo --notNull --type ~.domain.Ambiente
+field string --fieldName nome --notNull --sizeMax 255
+field string --fieldName categoria --notNull --sizeMax 255
+entity jpa --class ~domain.Produto --testAutomatically
+field reference --fieldName codigo --notNull --type ~.domain.Ambiente
+field number --fieldName ean13 --notNull --type java.lang.Long
+field string --fieldName nome --notNull --sizeMax 255
+field string --fieldName descricao --notNull --sizeMax 2000
+field reference --fieldName tipo --notNull --type ~.domain.TipoProduto
+field string --fieldName fabricante --notNull --sizeMax 255
+field number --fieldName quantidade --notNull --type java.lang.Long
+field number --fieldName valorCompra --notNull --type java.lang.Double
+field number --fieldName valorVenda --type java.lang.Double
+field date --fieldName dataCompra --notNull --type java.util.Date
+field reference --fieldName usuarioCadastro --notNull --type ~.domain.Usuario
+perform tests
+perform eclipse
+web mvc setup
+web mvc all --package ~.web
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-11-13 17:25:46
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-19 13:00:42
+entity jpa --class ~domain.TipoEquipamento --testAutomatically
+field reference --fieldName codigo --notNull --type ~.domain.Ambiente
+field string --fieldName nome --notNull --sizeMax 255
+field string --fieldName categoria --notNull --sizeMax 255
+entity jpa --class ~domain.Equipamento --testAutomatically
+field reference --fieldName codigo --notNull --type ~.domain.Ambiente
+field number --fieldName ean13 --notNull --type java.lang.Long
+field string --fieldName descricao --notNull
+field reference --fieldName tipo --notNull --type ~.domain.TipoEquipamento
+field number --fieldName quantidade --notNull --type java.lang.Long
+field number --fieldName valorCompra --notNull --type java.lang.Double
+field number --fieldName valorVenda --type java.lang.Double
+field date --fieldName dataCompra --notNull --type java.util.Date
+field reference --fieldName usuarioCadastro --notNull --type ~.domain.Usuario
+entity jpa --class ~domain.TipoMovimentacao --testAutomatically
+field reference --fieldName codigo --notNull --type ~.domain.Ambiente
+field string --fieldName nome --notNull --sizeMax 255
+field string --fieldName categoria --notNull --sizeMax 255
+entity jpa --class ~domain.Movimentacao --testAutomatically
+field reference --fieldName codigo --notNull --type ~.domain.Ambiente
+field date --fieldName criacao --notNull --type java.util.Date
+field reference --fieldName tipo --notNull --type ~.domain.TipoMovimentacao
+field string --fieldName nota --sizeMax 255
+field string --fieldName serie --sizeMax 255
+field reference --fieldName produto --notNull --type ~.domain.Produto
+field reference --fieldName equipamento --notNull --type ~.domain.Equipamento
+field number --fieldName quantidade --notNull --type java.lang.Long
+field number --fieldName valorUnitario --notNull --type java.lang.Double
+field number --fieldName valorTotal --notNull --type java.lang.Double
+field boolean --fieldName indCancelamento
+field reference --fieldName usuarioCadastro --notNull --type ~.domain.Usuario
+perform tests
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-11-19 15:59:30
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-19 16:01:22
+web mvc all --package ~.web
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-11-19 16:02:46
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-19 16:08:09
+security setup
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-11-19 16:10:04

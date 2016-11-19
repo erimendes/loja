@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_itchyno_iteff_domain_Movimentacao" modelAttribute="movimentacao" path="/movimentacaos" render="${empty dependencies}" z="Q28JKDkIVz7wIb84SCTp6+byuvA=">
+        <field:select field="codigo" id="c_com_itchyno_iteff_domain_Movimentacao_codigo" itemValue="id" items="${ambientes}" path="/ambientes" required="true" z="WRRE58jiJR5Bnx0VXrhe2BJDUnM="/>
+        <field:datetime dateTimePattern="${movimentacao_criacao_date_format}" field="criacao" id="c_com_itchyno_iteff_domain_Movimentacao_criacao" required="true" z="/mT5ZMObpHcPkrDjCfjezpPyLZ8="/>
+        <field:select field="tipo" id="c_com_itchyno_iteff_domain_Movimentacao_tipo" itemValue="id" items="${tipomovimentacaos}" path="/tipomovimentacaos" required="true" z="Ji9W03HSeewdQMV2FmzMo5Gv5K4="/>
+        <field:textarea field="nota" id="c_com_itchyno_iteff_domain_Movimentacao_nota" z="konKlvKlH7/x9WQPIcgY3cqWGqA="/>
+        <field:textarea field="serie" id="c_com_itchyno_iteff_domain_Movimentacao_serie" z="T0n6l6arVswEAkjKSpewkUeKPxg="/>
+        <field:select field="produto" id="c_com_itchyno_iteff_domain_Movimentacao_produto" itemValue="id" items="${produtoes}" path="/produtoes" required="true" z="13osWxIwY64ra8f5+8PoWTKelaI="/>
+        <field:select field="equipamento" id="c_com_itchyno_iteff_domain_Movimentacao_equipamento" itemValue="id" items="${equipamentoes}" path="/equipamentoes" required="true" z="wReBBMd400NGFKiWMCrMBZefYrw="/>
+        <field:input field="quantidade" id="c_com_itchyno_iteff_domain_Movimentacao_quantidade" required="true" validationMessageCode="field_invalid_integer" z="Q0S6kz6jvWEGeN64TBmzhQF5nMk="/>
+        <field:input field="valorUnitario" id="c_com_itchyno_iteff_domain_Movimentacao_valorUnitario" required="true" validationMessageCode="field_invalid_number" z="PgfpPClcDhPRa1QzaSqQC++n0wM="/>
+        <field:input field="valorTotal" id="c_com_itchyno_iteff_domain_Movimentacao_valorTotal" required="true" validationMessageCode="field_invalid_number" z="suy9zlh5xM9Xd+/BmefYmg8FTlY="/>
+        <field:checkbox field="indCancelamento" id="c_com_itchyno_iteff_domain_Movimentacao_indCancelamento" z="EQL6inTw9a0lDCsPpX+YqNt78JE="/>
+        <field:select field="usuarioCadastro" id="c_com_itchyno_iteff_domain_Movimentacao_usuarioCadastro" itemValue="id" items="${usuarios}" path="/usuarios" required="true" z="CN7M/oYotLPmRS3qveSLlgJDePQ="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_itchyno_iteff_domain_Movimentacao" render="${not empty dependencies}" z="vM6JIhoZ/HjRTCuoMkG58dsbWLA="/>
+</div>

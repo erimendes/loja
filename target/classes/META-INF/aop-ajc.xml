@@ -1,0 +1,60 @@
+<aspectj>
+<aspects>
+<aspect name="com.itchyno.iteff.domain.TipoProduto_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.domain.Cliente_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacao_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamento_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamento_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.web.TipoProdutoController_Roo_Controller"/>
+<aspect name="com.itchyno.iteff.domain.Ambiente_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.domain.Movimentacao_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.Equipamento_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.domain.Cliente_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.domain.TipoProduto_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.itchyno.iteff.domain.Movimentacao_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.domain.Usuario_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.domain.Ambiente_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.web.ProdutoController_Roo_Controller"/>
+<aspect name="com.itchyno.iteff.domain.Produto_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.Usuario_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.domain.Ambiente_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamento_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.domain.Movimentacao_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamento_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacao_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.domain.Produto_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.domain.Equipamento_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.domain.Cliente_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.web.UsuarioController_Roo_Controller"/>
+<aspect name="com.itchyno.iteff.domain.Equipamento_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.web.MovimentacaoController_Roo_Controller"/>
+<aspect name="com.itchyno.iteff.domain.Ambiente_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.domain.Movimentacao_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.domain.Produto_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.domain.TipoProduto_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacao_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.Usuario_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.itchyno.iteff.domain.Equipamento_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.web.TipoMovimentacaoController_Roo_Controller"/>
+<aspect name="com.itchyno.iteff.domain.Equipamento_Roo_JavaBean"/>
+<aspect name="com.itchyno.iteff.domain.Movimentacao_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamento_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.domain.Cliente_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacao_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.domain.Ambiente_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.domain.TipoProduto_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.domain.TipoProduto_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.web.ClienteController_Roo_Controller"/>
+<aspect name="com.itchyno.iteff.web.TipoEquipamentoController_Roo_Controller"/>
+<aspect name="com.itchyno.iteff.domain.Usuario_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.Usuario_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.web.AmbienteController_Roo_Controller"/>
+<aspect name="com.itchyno.iteff.domain.Produto_Roo_Jpa_Entity"/>
+<aspect name="com.itchyno.iteff.domain.Produto_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.domain.Cliente_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacao_Roo_ToString"/>
+<aspect name="com.itchyno.iteff.web.EquipamentoController_Roo_Controller"/>
+</aspects>
+</aspectj>
+

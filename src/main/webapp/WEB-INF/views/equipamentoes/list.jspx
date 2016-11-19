@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_itchyno_iteff_domain_Equipamento" items="${equipamentoes}" z="R4az2FDCQJgFzgMb4pYuTXBDco0=">
+        <table:table data="${equipamentoes}" id="l_com_itchyno_iteff_domain_Equipamento" path="/equipamentoes" z="jMs6N75p/LR0Mc/6Ru64kL8H+YM=">
+            <table:column id="c_com_itchyno_iteff_domain_Equipamento_codigo" property="codigo" z="MqnN84DlW3N4NNyK+KXHZPgrejw="/>
+            <table:column id="c_com_itchyno_iteff_domain_Equipamento_ean13" property="ean13" z="4ITiwIjbRS2EhtPbfjrlI2AE5Bc="/>
+            <table:column id="c_com_itchyno_iteff_domain_Equipamento_descricao" property="descricao" z="aAnV57Ojq4tJub8ToL3PsePx+fU="/>
+            <table:column id="c_com_itchyno_iteff_domain_Equipamento_tipo" property="tipo" z="Zce125QmGTSXXu9tid08ikvXXAY="/>
+            <table:column id="c_com_itchyno_iteff_domain_Equipamento_quantidade" property="quantidade" z="KZx8GYwt3LVpoLENGn3qNQvazN4="/>
+            <table:column id="c_com_itchyno_iteff_domain_Equipamento_valorCompra" property="valorCompra" z="8ziE//NT2ZpwOwsi+/bi80dqS10="/>
+        </table:table>
+    </page:list>
+</div>

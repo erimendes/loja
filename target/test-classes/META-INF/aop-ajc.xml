@@ -1,0 +1,41 @@
+<aspectj>
+<aspects>
+<aspect name="com.itchyno.iteff.domain.ProdutoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.ProdutoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacaoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamentoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoProdutoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.AmbienteIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.itchyno.iteff.domain.ClienteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.EquipamentoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.MovimentacaoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacaoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.ClienteIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.itchyno.iteff.domain.EquipamentoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.itchyno.iteff.domain.MovimentacaoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.AmbienteIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.ClienteDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.EquipamentoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamentoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.UsuarioIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.itchyno.iteff.domain.ClienteIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.ProdutoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.AmbienteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.MovimentacaoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamentoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.itchyno.iteff.domain.TipoProdutoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacaoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoProdutoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.TipoEquipamentoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.UsuarioDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoMovimentacaoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.ProdutoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.AmbienteDataOnDemand_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.MovimentacaoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.itchyno.iteff.domain.UsuarioDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.EquipamentoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.itchyno.iteff.domain.UsuarioIntegrationTest_Roo_Configurable"/>
+<aspect name="com.itchyno.iteff.domain.TipoProdutoIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

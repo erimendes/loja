@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_itchyno_iteff_domain_Movimentacao" object="${movimentacao}" path="/movimentacaos" z="sEEv6yhprAYeqX0PRWfM9PXOCAE=">
+        <field:display field="codigo" id="s_com_itchyno_iteff_domain_Movimentacao_codigo" object="${movimentacao}" z="psGLeiHlzjzgyhxNv365QVl6t44="/>
+        <field:display date="true" dateTimePattern="${movimentacao_criacao_date_format}" field="criacao" id="s_com_itchyno_iteff_domain_Movimentacao_criacao" object="${movimentacao}" z="/2xLEkpUsvHEo6zyunTvoLY9GwY="/>
+        <field:display field="tipo" id="s_com_itchyno_iteff_domain_Movimentacao_tipo" object="${movimentacao}" z="I7K7jTdl4gV7MjvlQ6SD+tMVmiw="/>
+        <field:display field="nota" id="s_com_itchyno_iteff_domain_Movimentacao_nota" object="${movimentacao}" z="cSIrtCp6KNqSL8AiEXp139mlz50="/>
+        <field:display field="serie" id="s_com_itchyno_iteff_domain_Movimentacao_serie" object="${movimentacao}" z="z3NO9SObKjATj07HLa4oU1DdLSE="/>
+        <field:display field="produto" id="s_com_itchyno_iteff_domain_Movimentacao_produto" object="${movimentacao}" z="VgjSOh6mCXnFN16uQISEzVD7oKY="/>
+        <field:display field="equipamento" id="s_com_itchyno_iteff_domain_Movimentacao_equipamento" object="${movimentacao}" z="ESB3wkuI9mpr8LTWvs4gjDqZOIs="/>
+        <field:display field="quantidade" id="s_com_itchyno_iteff_domain_Movimentacao_quantidade" object="${movimentacao}" z="2Gc3kWBwberPmpg3Z5gWtEVp3Z8="/>
+        <field:display field="valorUnitario" id="s_com_itchyno_iteff_domain_Movimentacao_valorUnitario" object="${movimentacao}" z="xpaPQfLG0jMVoZQUBeIXrMleEHE="/>
+        <field:display field="valorTotal" id="s_com_itchyno_iteff_domain_Movimentacao_valorTotal" object="${movimentacao}" z="9z3lBl4NcewDur222rzde+w40bY="/>
+        <field:display field="indCancelamento" id="s_com_itchyno_iteff_domain_Movimentacao_indCancelamento" object="${movimentacao}" z="nFbXZfRy8FIaLoSOQ71TsVHke9E="/>
+        <field:display field="usuarioCadastro" id="s_com_itchyno_iteff_domain_Movimentacao_usuarioCadastro" object="${movimentacao}" z="6PFJulK8roPRSZzdsuWOjVSFDOw="/>
+    </page:show>
+</div>

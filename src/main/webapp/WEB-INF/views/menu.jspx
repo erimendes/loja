@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_cliente" z="OA12E4nwdOcMU0p7LaQV8KKBm5E=">
+            <menu:item id="i_cliente_new" messageCode="global_menu_new" url="/clientes?form" z="cDLtjRjIN5c0dyE1ltBb0Mk1DJo="/>
+            <menu:item id="i_cliente_list" messageCode="global_menu_list" url="/clientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lk2UTVTUA9lz30A2vJEbY3GbO6E="/>
+        </menu:category>
+        <menu:category id="c_ambiente" z="xZA8SVS6mPFIsNapj4rWAjDAOfA=">
+            <menu:item id="i_ambiente_new" messageCode="global_menu_new" url="/ambientes?form" z="wHPFBkP1beYPBD/iMk47Oyxlx0I="/>
+            <menu:item id="i_ambiente_list" messageCode="global_menu_list" url="/ambientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tOsIE/2q/tKIPwNARI3DOord5zA="/>
+        </menu:category>
+        <menu:category id="c_produto" z="8jGkU+jEAT5KOiwMOctW/Ay8ScU=">
+            <menu:item id="i_produto_new" messageCode="global_menu_new" url="/produtoes?form" z="im12IAgxToraeq1qqXPZPutEYTY="/>
+            <menu:item id="i_produto_list" messageCode="global_menu_list" url="/produtoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="2XuLRqe1IbodNc8HoDoQzm4sqwk="/>
+        </menu:category>
+        <menu:category id="c_tipoproduto" z="vgOOhtzXy+A9O6NDXcxwKjQQ1KA=">
+            <menu:item id="i_tipoproduto_new" messageCode="global_menu_new" url="/tipoprodutoes?form" z="gUhJt7UaSsLfGVo6A9XElB5o2ro="/>
+            <menu:item id="i_tipoproduto_list" messageCode="global_menu_list" url="/tipoprodutoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4Z1yeUJEwTv0YizNzXd2z45DYpc="/>
+        </menu:category>
+        <menu:category id="c_usuario" z="g6oG0656PcsmmvUYeBtpgiQROck=">
+            <menu:item id="i_usuario_new" messageCode="global_menu_new" url="/usuarios?form" z="RG1gCsiZQjg1HLDzXbHKht6yDkw="/>
+            <menu:item id="i_usuario_list" messageCode="global_menu_list" url="/usuarios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P7ZIPrcTTBR41JYD0QldbYgsZrM="/>
+        </menu:category>
+        <menu:category id="c_tipoequipamento" z="628IzIz/QceSeBYpxKVYK40q+ac=">
+            <menu:item id="i_tipoequipamento_new" messageCode="global_menu_new" url="/tipoequipamentoes?form" z="wCvDCzZyiEgh5Gwg6iYrYV52Pr8="/>
+            <menu:item id="i_tipoequipamento_list" messageCode="global_menu_list" url="/tipoequipamentoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="CJK/pehtGHnAdl38l38WgtTZR28="/>
+        </menu:category>
+        <menu:category id="c_movimentacao" z="SsQqKXkJtMtdMhc1quHsgORIbXU=">
+            <menu:item id="i_movimentacao_new" messageCode="global_menu_new" url="/movimentacaos?form" z="QgKeQ9ssFR1Pm7IzXQsujtHqrLc="/>
+            <menu:item id="i_movimentacao_list" messageCode="global_menu_list" url="/movimentacaos?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eoArCY8BYCMg6P9tt1brwt6tQa4="/>
+        </menu:category>
+        <menu:category id="c_equipamento" z="0V1EhhKX/xGtwIdL/moWBGwMUvk=">
+            <menu:item id="i_equipamento_new" messageCode="global_menu_new" url="/equipamentoes?form" z="yvVJIWMP1L+Wn1aE+8mVWFiOzlo="/>
+            <menu:item id="i_equipamento_list" messageCode="global_menu_list" url="/equipamentoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QhwPSWrFhqi5nEmJYNGCT+RFXn0="/>
+        </menu:category>
+        <menu:category id="c_tipomovimentacao" z="Vbp8OMSZzVPzrAVoOQD4zwMLYFQ=">
+            <menu:item id="i_tipomovimentacao_new" messageCode="global_menu_new" url="/tipomovimentacaos?form" z="EnjpKBRQLbKNLnNoebZjZTp65Zs="/>
+            <menu:item id="i_tipomovimentacao_list" messageCode="global_menu_list" url="/tipomovimentacaos?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Y3SYMBh4wUoMKHfbmw1fhnBAC+8="/>
+        </menu:category>
+    </menu:menu>
+</div>

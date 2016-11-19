@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_itchyno_iteff_domain_Movimentacao" items="${movimentacaos}" z="Qvuq7M1/I36R+wZTCP9XUT40FNw=">
+        <table:table data="${movimentacaos}" id="l_com_itchyno_iteff_domain_Movimentacao" path="/movimentacaos" z="17cXi6SjWRXqeeXiQz3wixlfsx0=">
+            <table:column id="c_com_itchyno_iteff_domain_Movimentacao_codigo" property="codigo" z="37Re4/HnjGG01XDe/H+GuHA0jPM="/>
+            <table:column date="true" dateTimePattern="${movimentacao_criacao_date_format}" id="c_com_itchyno_iteff_domain_Movimentacao_criacao" property="criacao" z="WsqC/idZHxxWpeWKdQBA5aTT7kU="/>
+            <table:column id="c_com_itchyno_iteff_domain_Movimentacao_tipo" property="tipo" z="vjQDTqyKOMDNwFVc6Ya4ehTkAjQ="/>
+            <table:column id="c_com_itchyno_iteff_domain_Movimentacao_nota" property="nota" z="L9B4F/b6/5Rorrn7g1pvCR5csoM="/>
+            <table:column id="c_com_itchyno_iteff_domain_Movimentacao_serie" property="serie" z="6fCyIvoN+TU7FNkoqGNSPFYBaEI="/>
+            <table:column id="c_com_itchyno_iteff_domain_Movimentacao_produto" property="produto" z="00u5adOPU0RLRjRZfx7EHOPy83M="/>
+        </table:table>
+    </page:list>
+</div>

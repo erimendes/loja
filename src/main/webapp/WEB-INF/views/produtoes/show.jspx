@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_itchyno_iteff_domain_Produto" object="${produto}" path="/produtoes" z="PF4TuguemUqTYmyc0vZTa97d9M0=">
+        <field:display field="codigo" id="s_com_itchyno_iteff_domain_Produto_codigo" object="${produto}" z="UW/TJbG4ijAMznfUPOOotys/x/Y="/>
+        <field:display field="ean13" id="s_com_itchyno_iteff_domain_Produto_ean13" object="${produto}" z="B72A+k0daqCgrwjbveIbCyhEIFY="/>
+        <field:display field="nome" id="s_com_itchyno_iteff_domain_Produto_nome" object="${produto}" z="sxa3y9UIu31/tEOuFjgFnHq3/sY="/>
+        <field:display field="descricao" id="s_com_itchyno_iteff_domain_Produto_descricao" object="${produto}" z="jasAlhx6jRKeVyq1KZkWkt+g9Xc="/>
+        <field:display field="tipo" id="s_com_itchyno_iteff_domain_Produto_tipo" object="${produto}" z="1ZoCGmmc6vb/9TGh6c9yfhk1Iqc="/>
+        <field:display field="fabricante" id="s_com_itchyno_iteff_domain_Produto_fabricante" object="${produto}" z="g2jqkAqmZQYJ6Jbi+b3+HkzmNTQ="/>
+        <field:display field="quantidade" id="s_com_itchyno_iteff_domain_Produto_quantidade" object="${produto}" z="5UHzpaoKBPAKJB9IAm9Lo+YKb0s="/>
+        <field:display field="valorCompra" id="s_com_itchyno_iteff_domain_Produto_valorCompra" object="${produto}" z="2jBWQmOswQSj/k7hAcm3SWzbuN0="/>
+        <field:display field="valorVenda" id="s_com_itchyno_iteff_domain_Produto_valorVenda" object="${produto}" z="DRWMa3Pp/uwkzSAhIh1N4K+5v0Y="/>
+        <field:display date="true" dateTimePattern="${produto_datacompra_date_format}" field="dataCompra" id="s_com_itchyno_iteff_domain_Produto_dataCompra" object="${produto}" z="jDfKU0YUHTPbVTBzBu+LQ5LzmEo="/>
+        <field:display field="usuarioCadastro" id="s_com_itchyno_iteff_domain_Produto_usuarioCadastro" object="${produto}" z="g3C4+n4jF7SA+hSECZ+BV24U2PI="/>
+    </page:show>
+</div>

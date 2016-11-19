@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_itchyno_iteff_domain_Ambiente" items="${ambientes}" z="/poMYq+mXeDt29G0PDGCdfJh/pY=">
+        <table:table data="${ambientes}" id="l_com_itchyno_iteff_domain_Ambiente" path="/ambientes" z="f4uS9RyFrNY/F7i2tGiqZDK/2s0=">
+            <table:column id="c_com_itchyno_iteff_domain_Ambiente_codigo" property="codigo" z="Rc/7AMV/1ADWlMYCSFOemZo3m9I="/>
+            <table:column id="c_com_itchyno_iteff_domain_Ambiente_descricao" property="descricao" z="JmKV+Nnly+iB1ipy2A+Su3pU3z8="/>
+            <table:column id="c_com_itchyno_iteff_domain_Ambiente_indAtivo" property="indAtivo" z="1sekzwvqV8WOeOun0P5rax5MHao="/>
+        </table:table>
+    </page:list>
+</div>

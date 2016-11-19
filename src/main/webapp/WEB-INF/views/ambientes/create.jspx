@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_itchyno_iteff_domain_Ambiente" modelAttribute="ambiente" path="/ambientes" render="${empty dependencies}" z="3xPwLE00RzlEofl8LWwipxDNHwQ=">
+        <field:input field="codigo" id="c_com_itchyno_iteff_domain_Ambiente_codigo" max="3" min="3" required="true" z="mUKR0CZJvE3e5x7a/iAtgi6yaU0="/>
+        <field:textarea field="descricao" id="c_com_itchyno_iteff_domain_Ambiente_descricao" required="true" z="HU2jXFfPprg0ZuVOByHHhaQRgdg="/>
+        <field:checkbox field="indAtivo" id="c_com_itchyno_iteff_domain_Ambiente_indAtivo" z="eNLPTtgu2cpAvKHTZmb0EPQuTmc="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_itchyno_iteff_domain_Ambiente" render="${not empty dependencies}" z="uKENEThZ4opEBCtKQ/lRojBlqSk="/>
+</div>

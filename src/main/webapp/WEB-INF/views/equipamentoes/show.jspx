@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_itchyno_iteff_domain_Equipamento" object="${equipamento}" path="/equipamentoes" z="eqz3x23FOFvW3Xu88o7N4bjx8Tw=">
+        <field:display field="codigo" id="s_com_itchyno_iteff_domain_Equipamento_codigo" object="${equipamento}" z="3TDqrjXwl+g2iL51ofv9BJJYZ/o="/>
+        <field:display field="ean13" id="s_com_itchyno_iteff_domain_Equipamento_ean13" object="${equipamento}" z="AueLgYXUE5nDqYahXj10vv1Mmo4="/>
+        <field:display field="descricao" id="s_com_itchyno_iteff_domain_Equipamento_descricao" object="${equipamento}" z="fgFwaUATk7EK/olAy/CMnvnDehk="/>
+        <field:display field="tipo" id="s_com_itchyno_iteff_domain_Equipamento_tipo" object="${equipamento}" z="nCaaNaqidJ6XGvu/jQpLXZzQjC8="/>
+        <field:display field="quantidade" id="s_com_itchyno_iteff_domain_Equipamento_quantidade" object="${equipamento}" z="2NI+5B1SlnfV/Sk+Zco63owSSjc="/>
+        <field:display field="valorCompra" id="s_com_itchyno_iteff_domain_Equipamento_valorCompra" object="${equipamento}" z="A7yUblmZxrRx6S7cNHH7MOATvd0="/>
+        <field:display field="valorVenda" id="s_com_itchyno_iteff_domain_Equipamento_valorVenda" object="${equipamento}" z="KafFhFsEqSnRy4ygGFmWkPmYepo="/>
+        <field:display date="true" dateTimePattern="${equipamento_datacompra_date_format}" field="dataCompra" id="s_com_itchyno_iteff_domain_Equipamento_dataCompra" object="${equipamento}" z="q5lSOYd4lAb3brT7X4oSGJBrGk8="/>
+        <field:display field="usuarioCadastro" id="s_com_itchyno_iteff_domain_Equipamento_usuarioCadastro" object="${equipamento}" z="UTPy0pnjNNREBE/D7sfMCKc/8TY="/>
+    </page:show>
+</div>

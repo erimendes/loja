@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_itchyno_iteff_domain_Cliente" object="${cliente}" path="/clientes" z="qqk85T78ucvzcdo+0hf2fVSqIfI=">
+        <field:display field="codigo" id="s_com_itchyno_iteff_domain_Cliente_codigo" object="${cliente}" z="svs7tyr/iZJsGEdGZR8jEeKtbpc="/>
+        <field:display field="nome" id="s_com_itchyno_iteff_domain_Cliente_nome" object="${cliente}" z="7qg2BPNp+sasyHJB4r9KQMWqI1s="/>
+        <field:display field="email" id="s_com_itchyno_iteff_domain_Cliente_email" object="${cliente}" z="LvGBzr3VrOqiU849YSPEC2h6+sQ="/>
+        <field:display field="numTelefone1" id="s_com_itchyno_iteff_domain_Cliente_numTelefone1" object="${cliente}" z="6ewCbz7GdBr8yGw0Ou4sTJCSzPA="/>
+        <field:display field="numTelefone2" id="s_com_itchyno_iteff_domain_Cliente_numTelefone2" object="${cliente}" z="778eZik97Pz62AAcEVCH1FZLQKM="/>
+        <field:display field="numCelular1" id="s_com_itchyno_iteff_domain_Cliente_numCelular1" object="${cliente}" z="H0QueB66eN+ChhwU4qe8mfoAia8="/>
+        <field:display field="numCelular2" id="s_com_itchyno_iteff_domain_Cliente_numCelular2" object="${cliente}" z="6PpfU8vL6vnCVT26ILzFnc2W7XU="/>
+        <field:display field="nomeUsuario" id="s_com_itchyno_iteff_domain_Cliente_nomeUsuario" object="${cliente}" z="NXE5IkMjdVs1LVtiGQNqxLFW3+k="/>
+        <field:display field="nomeEndereco" id="s_com_itchyno_iteff_domain_Cliente_nomeEndereco" object="${cliente}" z="kNgAISRRJiIQIysGvgiSh40l8jM="/>
+        <field:display field="compEndereco" id="s_com_itchyno_iteff_domain_Cliente_compEndereco" object="${cliente}" z="vq0vHDheyroIgTRGnTRIrM4+7Rc="/>
+        <field:display field="numEndereco" id="s_com_itchyno_iteff_domain_Cliente_numEndereco" object="${cliente}" z="F3T0TKNYOCYcxUnlhuEDFRt5T7c="/>
+        <field:display field="nomeCidade" id="s_com_itchyno_iteff_domain_Cliente_nomeCidade" object="${cliente}" z="KNR8DAVJUo7RNVp/PDPiMvT7M1I="/>
+        <field:display field="nomeEstado" id="s_com_itchyno_iteff_domain_Cliente_nomeEstado" object="${cliente}" z="wh7lLcbFa5/4ocM1TVHYsvBydQE="/>
+        <field:display field="nomePais" id="s_com_itchyno_iteff_domain_Cliente_nomePais" object="${cliente}" z="3UeQb9WiEZFre4ACMSDlB+OblF0="/>
+    </page:show>
+</div>

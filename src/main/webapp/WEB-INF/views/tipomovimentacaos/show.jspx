@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_itchyno_iteff_domain_TipoMovimentacao" object="${tipomovimentacao}" path="/tipomovimentacaos" z="zCSG2JSlbDP71cCen17I9Xj9Y6k=">
+        <field:display field="codigo" id="s_com_itchyno_iteff_domain_TipoMovimentacao_codigo" object="${tipomovimentacao}" z="wize4D7+W3KwfxC+ZsHKPT3MKAM="/>
+        <field:display field="nome" id="s_com_itchyno_iteff_domain_TipoMovimentacao_nome" object="${tipomovimentacao}" z="7ZBNa4jLUjh6TMTE7dG1xx1BV+E="/>
+        <field:display field="categoria" id="s_com_itchyno_iteff_domain_TipoMovimentacao_categoria" object="${tipomovimentacao}" z="HO7WbmmCWV4d/sM3sYpyQ73bBUE="/>
+    </page:show>
+</div>
